@@ -1,9 +1,9 @@
 state("blackops3")
 {
     int level_time : 0xA56EFD8;
-    byte round_counter : 0xA55DDEC;
-    byte is_paused : 0x3480E08; // No clue if this is actually the pause variable, but it seems to work as if it is
-    string13 map_name : 0x9992123;
+    byte round_counter : 0xA55BDEC;
+    byte is_paused : 0x347EE08; // No clue if this is actually the pause variable, but it seems to work as if it is
+    string13 map_name : 0x179E1840;
 }
 
 startup
